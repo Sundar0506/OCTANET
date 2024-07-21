@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sundar's Daily Tasks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">Sundar's Daily Tasks</h1>
+        </header>
+        <main>
+            <div class="scroll-container">
+                <ul id="task-list">
+                    <li>Wake up and get ready <input type="checkbox"></li>
+                    <li>Eat breakfast <input type="checkbox"></li>
+                    <li>Work/Study <input type="checkbox"></li>
+                    <li>Take breaks <input type="checkbox"></li>
+                    <li>Eat lunch <input type="checkbox"></li>
+                    <li>Continue work/study <input type="checkbox"></li>
+                    <li>Exercise <input type="checkbox"></li>
+                    <li>Eat dinner <input type="checkbox"></li>
+                    <li>Relax and unwind before bed <input type="checkbox"></li>
+                </ul>
+            </div>
+            <form id="todo-form">
+                <input type="text" id="new-task" placeholder="Add a new task..." required>
+                <button type="submit">Add Task</button>
+            </form>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Sign in</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
